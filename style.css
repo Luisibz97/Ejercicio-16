@@ -1,0 +1,47 @@
+.seccion {
+    background-color: darkslategrey;
+    padding: 1rem;
+    margin: 1rem;
+    max-height: 200px;
+    max-width: 600px;
+    order: 1;
+    flex-grow: 2;
+}
+.seccion2 {
+    background-color: darkslategrey;
+    padding: 1rem;
+    margin: 1rem;
+    max-height: 200px;
+    max-width: 600px;
+    order: 2;
+    flex-grow: 2;
+}
+.container {
+    display: flex;
+}
+
+.parrafo {
+    background-color: white;
+    padding: 15px;
+}
+
+.parrafo.dragging {
+    opacity: 0.3;
+}
+
+.imagen-fantasma {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: -100vw;
+}
+
+#trash {
+    margin-left: 13px;
+    display: inline-flex;
+    order: 3;
+    flex-grow: 1
+
+}
+
